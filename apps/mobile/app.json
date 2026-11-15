@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Pinganillo",
+    "slug": "pinganillo",
+    "version": "0.1.0",
+    "scheme": "pinganillo",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "app.pinganillo.coach",
+      "infoPlist": {
+        "UIBackgroundModes": ["location", "audio"],
+        "LSApplicationQueriesSchemes": ["gcm-ciq"],
+        "NSBluetoothAlwaysUsageDescription": "Pinganillo se comunica con tu reloj Garmin durante la carrera.",
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "app.pinganillo.coach",
+      "adaptiveIcon": {
+        "backgroundColor": "#0E1116",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Pinganillo usa tu ubicación durante la carrera para medir ritmo, desnivel y viento, también con la pantalla apagada.",
+          "locationWhenInUsePermission": "Pinganillo usa tu ubicación para el clima y para guiarte durante la carrera.",
+          "isAndroidBackgroundLocationEnabled": true,
+          "isAndroidForegroundServiceEnabled": true,
+          "isIosBackgroundLocationEnabled": true
+        }
+      ],
+      "expo-audio",
+      ["expo-build-properties", { "ios": { "deploymentTarget": "16.4" } }]
+    ]
+  }
+}

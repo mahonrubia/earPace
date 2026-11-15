@@ -1,7 +1,10 @@
 {
   "name": "pinganillo",
   "private": true,
-  "workspaces": ["packages/*"],
+  "workspaces": [
+    "packages/*",
+    "apps/mobile"
+  ],
   "scripts": {
     "test": "npm test -w @pinganillo/coach-engine",
     "typecheck": "npm run typecheck -w @pinganillo/coach-engine && npm run typecheck -w pinganillo-mobile",
