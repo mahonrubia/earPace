@@ -2,7 +2,7 @@
 <!-- Abre este proyecto con la extensión "Monkey C" de VS Code para editar la lista de relojes compatibles. -->
 <iq:manifest version="3" xmlns:iq="http://www.garmin.com/xml/connectiq">
     <iq:application id="700826d132bd454e85dea57c6ae16546" type="watch-app" name="@Strings.AppName"
-                    entry="PinganilloApp" launcherIcon="@Drawables.LauncherIcon" minApiLevel="3.2.0">
+                    entry="EarPaceApp" launcherIcon="@Drawables.LauncherIcon" minApiLevel="3.2.0">
         <iq:products>
             <iq:product id="fr245"/>
             <iq:product id="fr245m"/>

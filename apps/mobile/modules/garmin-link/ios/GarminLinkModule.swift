@@ -5,7 +5,7 @@ import ExpoModulesCore
 /// En iOS la lista de relojes se obtiene abriendo Garmin Connect (`showDeviceSelection`), que
 /// devuelve el control a la app mediante su esquema de URL.
 public final class GarminLinkModule: Module {
-  static let urlScheme = "pinganillo"
+  static let urlScheme = "earpace"
   static weak var shared: GarminLinkModule?
 
   private var initialized = false

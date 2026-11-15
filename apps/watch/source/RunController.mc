@@ -87,7 +87,7 @@ class RunController {
 
     function startOrPause() {
         if (state == IDLE) {
-            session = ActivityRecording.createSession({ :name => "Pinganillo", :sport => Activity.SPORT_RUNNING });
+            session = ActivityRecording.createSession({ :name => "EarPace", :sport => Activity.SPORT_RUNNING });
             session.start();
             state = RUNNING;
             coach.reset();

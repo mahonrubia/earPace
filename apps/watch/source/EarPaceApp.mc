@@ -2,10 +2,10 @@ import Toybox.Application;
 import Toybox.Lang;
 import Toybox.WatchUi;
 
-// Pinganillo: entrenador de carrera en la muñeca.
+// EarPace: entrenador de carrera en la muñeca.
 // El reloj graba la actividad, envía los datos en vivo al móvil y muestra/vibra
 // las indicaciones que este le devuelve. Sin móvil, usa un entrenador local reducido.
-class PinganilloApp extends Application.AppBase {
+class EarPaceApp extends Application.AppBase {
 
     var run;
 

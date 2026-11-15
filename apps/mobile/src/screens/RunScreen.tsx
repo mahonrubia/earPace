@@ -1,4 +1,4 @@
-import { durShort, paceShort } from '@pinganillo/coach-engine';
+import { durShort, paceShort } from '@earpace/coach-engine';
 import React from 'react';
 import { ScrollView, StyleSheet, Text, View } from 'react-native';
 import { confirm } from '../dialog';
@@ -104,7 +104,7 @@ export function RunScreen() {
       <Card style={{ borderColor: last ? PRIORITY_COLOR[last.priority] : c.line, minHeight: 96 }}>
         <Dim>ENTRENADOR</Dim>
         <P style={{ fontSize: 18, lineHeight: 25, marginTop: 4 }}>
-          {last?.text ?? (r.phase === 'ready' ? (r.source === 'watch' ? 'Abre Pinganillo en tu reloj y pulsa START cuando quieras.' : 'Cuando quieras, pulsa Empezar.') : 'Todo en orden. Te aviso cuando haga falta.')}
+          {last?.text ?? (r.phase === 'ready' ? (r.source === 'watch' ? 'Abre EarPace en tu reloj y pulsa START cuando quieras.' : 'Cuando quieras, pulsa Empezar.') : 'Todo en orden. Te aviso cuando haga falta.')}
         </P>
       </Card>
 

@@ -1,24 +1,24 @@
 {
   "expo": {
-    "name": "Pinganillo",
-    "slug": "pinganillo",
+    "name": "EarPace",
+    "slug": "earpace",
     "version": "0.1.0",
-    "scheme": "pinganillo",
+    "scheme": "earpace",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
     "ios": {
       "supportsTablet": false,
-      "bundleIdentifier": "app.pinganillo.coach",
+      "bundleIdentifier": "app.earpace.coach",
       "infoPlist": {
         "UIBackgroundModes": ["location", "audio"],
         "LSApplicationQueriesSchemes": ["gcm-ciq"],
-        "NSBluetoothAlwaysUsageDescription": "Pinganillo se comunica con tu reloj Garmin durante la carrera.",
+        "NSBluetoothAlwaysUsageDescription": "EarPace se comunica con tu reloj Garmin durante la carrera.",
         "ITSAppUsesNonExemptEncryption": false
       }
     },
     "android": {
-      "package": "app.pinganillo.coach",
+      "package": "app.earpace.coach",
       "adaptiveIcon": {
         "backgroundColor": "#0E1116",
         "foregroundImage": "./assets/android-icon-foreground.png",
@@ -31,8 +31,8 @@
       [
         "expo-location",
         {
-          "locationAlwaysAndWhenInUsePermission": "Pinganillo usa tu ubicación durante la carrera para medir ritmo, desnivel y viento, también con la pantalla apagada.",
-          "locationWhenInUsePermission": "Pinganillo usa tu ubicación para el clima y para guiarte durante la carrera.",
+          "locationAlwaysAndWhenInUsePermission": "EarPace usa tu ubicación durante la carrera para medir ritmo, desnivel y viento, también con la pantalla apagada.",
+          "locationWhenInUsePermission": "EarPace usa tu ubicación para el clima y para guiarte durante la carrera.",
           "isAndroidBackgroundLocationEnabled": true,
           "isAndroidForegroundServiceEnabled": true,
           "isIosBackgroundLocationEnabled": true

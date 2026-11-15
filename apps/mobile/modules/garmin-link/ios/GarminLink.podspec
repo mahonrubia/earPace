@@ -2,9 +2,9 @@ Pod::Spec.new do |s|
   s.name           = 'GarminLink'
   s.version        = '0.1.0'
   s.summary        = 'Puente con relojes Garmin mediante Connect IQ Mobile SDK'
-  s.description    = 'Envía y recibe mensajes entre la app Pinganillo y su app de reloj Connect IQ.'
+  s.description    = 'Envía y recibe mensajes entre la app EarPace y su app de reloj Connect IQ.'
   s.license        = 'MIT'
-  s.author         = 'Pinganillo'
+  s.author         = 'EarPace'
   s.homepage       = 'https://developer.garmin.com/connect-iq/'
   s.platforms      = { :ios => '16.4' }
   s.swift_version  = '5.9'

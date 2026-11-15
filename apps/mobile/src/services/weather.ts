@@ -1,4 +1,4 @@
-import type { Weather } from '@pinganillo/coach-engine';
+import type { Weather } from '@earpace/coach-engine';
 import * as Location from 'expo-location';
 
 function conditionOf(code: number): Weather['condition'] {

@@ -1,4 +1,4 @@
-import type { Verbosity } from '@pinganillo/coach-engine';
+import type { Verbosity } from '@earpace/coach-engine';
 import React from 'react';
 import { notify } from '../dialog';
 import { Platform, Switch, View } from 'react-native';
@@ -58,7 +58,7 @@ export function SettingsScreen() {
     <>
       <H1>Ajustes</H1>
       <Card>
-        <H2>Voz (pinganillo)</H2>
+        <H2>Voz (auriculares)</H2>
         <Row>
           <P style={{ flex: 1 }}>Indicaciones por audio</P>
           <Switch value={st.voice} onValueChange={(voice) => set({ voice })} trackColor={{ true: c.accent }} />
@@ -112,7 +112,7 @@ export function SettingsScreen() {
       <Card>
         <H2>Aviso</H2>
         <Dim>
-          Pinganillo orienta tu entrenamiento, no sustituye a un médico ni a un fisioterapeuta. Si notas dolor en el pecho, mareo o un dolor que empeora al correr, para y consulta a un profesional.
+          EarPace orienta tu entrenamiento, no sustituye a un médico ni a un fisioterapeuta. Si notas dolor en el pecho, mareo o un dolor que empeora al correr, para y consulta a un profesional.
         </Dim>
         <View style={{ height: 4 }} />
       </Card>

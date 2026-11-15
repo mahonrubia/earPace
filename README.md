@@ -1,4 +1,4 @@
-# Pinganillo — tu entrenador de carrera al oído
+# EarPace — tu entrenador de carrera al oído
 
 App para corredores con reloj Garmin. Durante un entrenamiento o una competición te va
 orientando **por voz** (auriculares conectados al móvil) y **en el reloj** (texto + vibración),
@@ -91,5 +91,5 @@ solo en el dispositivo), iconos y capturas definitivos, y probar con relojes rea
 
 ## Aviso
 
-Pinganillo orienta el entrenamiento; no es un producto sanitario ni sustituye a un médico o
+EarPace orienta el entrenamiento; no es un producto sanitario ni sustituye a un médico o
 fisioterapeuta. Los ajustes por calor, viento, pendiente y carga son aproximaciones.

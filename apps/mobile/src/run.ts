@@ -11,7 +11,7 @@ import {
   type LiveSample,
   type RunSummary,
   type WatchProfile,
-} from '@pinganillo/coach-engine';
+} from '@earpace/coach-engine';
 import { activateKeepAwakeAsync, deactivateKeepAwake } from 'expo-keep-awake';
 import React from 'react';
 import { garmin, type WatchMessage } from './services/garmin';

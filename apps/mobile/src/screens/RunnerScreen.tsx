@@ -1,4 +1,4 @@
-import { paceShort, restrictionsOf, shoeMaxKm, zonesOf, type Injury, type InjuryArea, type InjuryStatus, type ShoeType } from '@pinganillo/coach-engine';
+import { paceShort, restrictionsOf, shoeMaxKm, zonesOf, type Injury, type InjuryArea, type InjuryStatus, type ShoeType } from '@earpace/coach-engine';
 import React from 'react';
 import { notify } from '../dialog';
 import { Text, View } from 'react-native';

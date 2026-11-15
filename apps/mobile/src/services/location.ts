@@ -1,8 +1,8 @@
-import { bearingDeg, haversineM, type LiveSample } from '@pinganillo/coach-engine';
+import { bearingDeg, haversineM, type LiveSample } from '@earpace/coach-engine';
 import * as Location from 'expo-location';
 import * as TaskManager from 'expo-task-manager';
 
-const TASK = 'pinganillo-run-location';
+const TASK = 'earpace-run-location';
 
 type Listener = (points: Location.LocationObject[]) => void;
 let listener: Listener | null = null;
@@ -31,7 +31,7 @@ export async function startTracking(onPoints: Listener): Promise<boolean> {
     pausesUpdatesAutomatically: false,
     showsBackgroundLocationIndicator: true,
     foregroundService: {
-      notificationTitle: 'Pinganillo te está guiando',
+      notificationTitle: 'EarPace te está guiando',
       notificationBody: 'Carrera en curso',
       notificationColor: '#FF5A1F',
     },

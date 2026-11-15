@@ -1,4 +1,4 @@
-import { buildBriefing, computeReadiness, parseGpx, totalAscent, workoutForDate, type CoachContext, type Terrain, type Weather } from '@pinganillo/coach-engine';
+import { buildBriefing, computeReadiness, parseGpx, totalAscent, workoutForDate, type CoachContext, type Terrain, type Weather } from '@earpace/coach-engine';
 import * as DocumentPicker from 'expo-document-picker';
 import { File } from 'expo-file-system';
 import React from 'react';

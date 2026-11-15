@@ -1,4 +1,4 @@
-import type { Cue } from '@pinganillo/coach-engine';
+import type { Cue } from '@earpace/coach-engine';
 import { setAudioModeAsync } from 'expo-audio';
 import * as Speech from 'expo-speech';
 

@@ -1,5 +1,5 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import type { AthleteProfile, Injury, PastActivity, RecoveryInfo, Route, Shoe, Terrain, TrainingPlan, Verbosity } from '@pinganillo/coach-engine';
+import type { AthleteProfile, Injury, PastActivity, RecoveryInfo, Route, Shoe, Terrain, TrainingPlan, Verbosity } from '@earpace/coach-engine';
 import React from 'react';
 
 export interface Settings {
@@ -34,7 +34,7 @@ const DEFAULTS: AppData = {
   settings: { voice: true, watch: true, verbosity: 'normal', voiceRate: 1 },
 };
 
-const KEY = 'pinganillo.data.v1';
+const KEY = 'earpace.data.v1';
 
 interface Store {
   data: AppData;

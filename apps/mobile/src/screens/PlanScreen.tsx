@@ -1,4 +1,4 @@
-import { buildSamplePlan, daysBetween, validatePlan, type Workout } from '@pinganillo/coach-engine';
+import { buildSamplePlan, daysBetween, validatePlan, type Workout } from '@earpace/coach-engine';
 import * as DocumentPicker from 'expo-document-picker';
 import { File } from 'expo-file-system';
 import React from 'react';

@@ -1,5 +1,5 @@
 {
-  "name": "@pinganillo/coach-engine",
+  "name": "@earpace/coach-engine",
   "version": "0.1.0",
   "description": "Motor de coaching en vivo para corredores (sin dependencias, compartido por móvil y tests)",
   "main": "src/index.ts",

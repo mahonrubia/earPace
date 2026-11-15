@@ -1,13 +1,13 @@
 {
-  "name": "pinganillo",
+  "name": "earpace",
   "private": true,
   "workspaces": [
     "packages/*",
     "apps/mobile"
   ],
   "scripts": {
-    "test": "npm test -w @pinganillo/coach-engine",
-    "typecheck": "npm run typecheck -w @pinganillo/coach-engine && npm run typecheck -w pinganillo-mobile",
-    "simulate": "npm run simulate -w @pinganillo/coach-engine"
+    "test": "npm test -w @earpace/coach-engine",
+    "typecheck": "npm run typecheck -w @earpace/coach-engine && npm run typecheck -w earpace-mobile",
+    "simulate": "npm run simulate -w @earpace/coach-engine"
   }
 }
