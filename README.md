@@ -42,6 +42,8 @@ entrenamiento, zona de pulso, parciales y alerta de pulso máximo).
 ## Probarlo
 
 ```bash
+git clone https://github.com/mahonrubia/earPace.git
+cd earPace
 npm install
 npm test                 # tests del motor
 npm run simulate         # imprime lo que diría el entrenador en una carrera simulada
