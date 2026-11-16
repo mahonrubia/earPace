@@ -2,6 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { KeyboardAvoidingView, Platform, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
+import { DialogHost } from './src/dialog';
 import { run, useRun } from './src/run';
 import { PlanScreen } from './src/screens/PlanScreen';
 import { RunnerScreen } from './src/screens/RunnerScreen';
@@ -83,6 +84,7 @@ export default function App() {
       <StoreProvider>
         <StatusBar style="light" />
         <Shell />
+        <DialogHost />
       </StoreProvider>
     </SafeAreaProvider>
   );
